@@ -1,0 +1,397 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ecf0f1;
+}
+
+header {
+  background: #3498db;
+  color: white;
+  text-align: center;
+  padding: 50px 20px;
+  margin-bottom: 20px;
+}
+header .Hello {
+  font-size: 2.5rem;
+}
+header .Welcome {
+  font-size: 1.2rem;
+}
+header .motivation {
+  margin-top: 20px;
+}
+
+.navbar {
+  background-color: #2c3e50;
+  padding: 10px;
+}
+.navbar ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+.navbar ul li {
+  margin: 0 15px;
+}
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+.navbar ul li a:hover {
+  text-decoration: underline;
+}
+
+section #work {
+  padding: 20px;
+  max-width: 1000; 
+  margin: 20px 0;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+section h2 {
+  color: #2c3e50;
+}
+section p {
+  line-height: 1.6;
+}
+section img {
+  max-width: 100%;
+  height: auto;
+}
+section table {
+  width: 100%;
+  border-collapse: collapse;
+}
+section table th,
+section table td {
+  padding: 10px;
+  border: 1px solid #2c3e50;
+}
+
+section table tr {
+
+  text-align: center;
+}
+
+.who_iam {
+  background-color: rgb(255, 221, 0);
+  color: #3498db;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  margin: 0 auto;
+  max-width: 300px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.P_im {
+  text-align: center;
+}
+
+.picture_zied {
+  margin: 50px auto;
+  display: block;
+}
+
+
+/* Section styling */
+#work {
+  background-color: #3498db;
+  padding: 60px;
+  max-width: 900px;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+#mywork {
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  font-size: 30px;
+  color: #333;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/* Styling each article (project) */
+article {
+  margin-bottom: 30px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+article:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* Project title styling */
+h3 {
+  font-size: 22px;
+  color: rgb(255, 221, 0);
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+/* Paragraph styling */
+p {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+/* Link styling */
+a {
+  color: #3498db;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  #work {
+      padding: 30px;
+  }
+
+  #mywork {
+      font-size: 24px;
+  }
+
+  h3 {
+      font-size: 20px;
+  }
+
+  p {
+      font-size: 16px;
+  }
+}
+
+
+
+/* Section styling */
+#resume {
+  background-color: #3498db;
+  padding: 50px;
+  max-width: 800px;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.Resumeh2 {
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.resume p {
+  text-align: center;
+  font-size: 18px;
+  color: rgb(131, 129, 129);
+  margin-bottom: 40px;
+}
+
+/* Table styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 30px;
+}
+
+table th, 
+table td {
+  text-align: center;
+  padding: 12px 15px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+}
+
+table th {
+  background-color: rgb(255, 221, 0);
+  color: white;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+table td {
+  background-color: #fff;
+  color: #333;
+}
+
+.Position, .Year {
+  width: 50%;
+}
+
+/* Link styling for resume download */
+.download {
+  display: inline-block;
+  font-size: 18px;
+  color: #3498db;
+  background-color: rgb(255, 221, 0);
+  padding: 12px 30px;
+  border-radius: 50px;
+  text-decoration: none;
+  text-align: center;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.download:hover {
+  background-color: rgb(255, 221, 0);
+  transform: translateY(-2px);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  resume {
+      padding: 30px;
+  }
+
+  .Resumeh2 {
+      font-size: 24px;
+  }
+
+  table th, table td {
+      font-size: 14px;
+      padding: 10px;
+  }
+
+  .download {
+      font-size: 16px;
+  }
+}
+
+
+/* Section styling */
+#contact {
+  background-color: #3498db;
+  padding: 60px;
+  max-width: 500px;
+  margin: 20px auto;
+  border: 2px solid #eaeaea;
+  border-radius: 8px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);
+}
+
+.contact h2 {
+  text-align: center;
+  font-family: 'Verdana', sans-serif;
+  font-size: 28px;
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+
+/* Form layout and styling */
+form {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+}
+
+label {
+  font-size: 15px;
+  font-weight: 400;
+  color: #ffffff;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  font-size: 16px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  background-color: #fafafa;
+  transition: all 0.3s ease;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+  border-color: rgb(255, 221, 0);
+  background-color: #fff;
+  outline: none;
+}
+
+/* Button styling */
+button[type="submit"] {
+  font-size: 18px;
+  font-weight: 400;
+  padding: 14px;
+  border: none;
+  border-radius: 50px;
+  color: #fff;
+  background-color: rgb(255, 221, 0);
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: rgb(220, 191, 0);
+  transform: scale(1.05);
+}
+
+/* Textarea styling */
+textarea {
+  height: 160px;
+  resize: none;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  #contact {
+      padding: 40px;
+  }
+
+  button[type="submit"] {
+      font-size: 16px;
+      padding: 12px;
+  }
+}
+
+
+
+
+.Position {
+
+  color: #3498db;
+}
+
+.Year{
+
+  color: #3498db;
+}
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #2c3e50;
+  color: white;
+}
+footer a {
+  margin: 0 10px;
+  color: white;
+}
+footer p {
+  margin-top: 10px;
+}/*# sourceMappingURL=styles.css.map */
